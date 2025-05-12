@@ -5,7 +5,7 @@ import os
 import pymysql
 from pydantic import BaseModel, Field
 
-os.environ["DEEPSEEK_API_KEY"] = "sk-003194da3682421199b4954861ad3082"
+os.environ["DEEPSEEK_API_KEY"] = "<YOUR DEEPSEEK API KEY>"
 
 llm = ChatDeepSeek(
     model="deepseek-chat",
