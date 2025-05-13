@@ -2,7 +2,7 @@
 
 # 运行 crawler/main.py
 echo "Running crawler/main.py..."
-python3 crawler/main.py
+python3 crawler_rebuild/main.py
 
 # 检查是否成功
 if [ $? -ne 0 ]; then
